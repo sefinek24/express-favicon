@@ -6,10 +6,10 @@ Favicon middleware for [Express.js](https://github.com/expressjs/express).
 npm install @sefinek/express-favicon
 ```
 
-## Example
+## Usage
 ```js
 const express = require('express');
-const favicon = require('./index.js');
+const favicon = require('@sefinek/express-favicon');
 
 const app = express();
 app.use(favicon(__dirname + '/public/favicon.png'));
@@ -22,6 +22,9 @@ app.listen(8080, () => {
     console.log('Example app is ready!');
 });
 ```
+
+## Example icon
+![Favicon 48x48](test/favicon.png)
 
 ## MIT License
 Copyright (c) 2023 Sefinek
