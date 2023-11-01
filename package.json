@@ -5,6 +5,8 @@
   "keywords": [
     "express",
     "express-favicon",
+    "express-js",
+    "express-middleware",
     "favicon",
     "serve-favicon"
   ],
