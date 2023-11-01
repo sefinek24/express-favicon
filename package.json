@@ -1,0 +1,40 @@
+{
+  "name": "@sefinek/express-favicon",
+  "version": "1.0.0",
+  "description": "Middleware icon for Express.js.",
+  "keywords": [
+    "express",
+    "express-favicon",
+    "favicon",
+    "serve-favicon"
+  ],
+  "homepage": "https://github.com/sefinek24/express-favicon#readme",
+  "bugs": {
+    "url": "https://github.com/sefinek24/express-favicon/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sefinek24/express-favicon.git"
+  },
+  "license": "MIT",
+  "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "test": "node test/server.js"
+  },
+  "devDependencies": {
+    "express": "^4.18.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "files": [
+    "test/",
+    "example.js",
+    "index.d.ts",
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ]
+}
