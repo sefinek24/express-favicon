@@ -1,12 +1,12 @@
-## @sefinek/express-favicon
+# @sefinek/express-favicon
 Favicon middleware for [Express.js](https://github.com/expressjs/express).
 
-### Installation
+## Installation
 ```bash
 npm install @sefinek/express-favicon
 ```
 
-### Example
+## Example
 ```js
 const express = require('express');
 const favicon = require('./index.js');
@@ -23,5 +23,5 @@ app.listen(3000, () => {
 });
 ```
 
-### MIT License
+## MIT License
 Copyright (c) 2023 Sefinek
