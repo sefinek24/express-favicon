@@ -1,6 +1,6 @@
 {
   "name": "@sefinek/express-favicon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Favicon middleware for Express.js with additional headers responsible for caching the icon in the client's browser.",
   "keywords": [
     "express",
