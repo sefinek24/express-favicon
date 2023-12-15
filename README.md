@@ -1,5 +1,5 @@
 # @sefinek/express-favicon
-Favicon middleware for [Express.js](https://github.com/expressjs/express) with additional headers responsible for caching the icon in the client's browser.
+Favicon middleware for [Express.js](https://github.com/expressjs/express) with [additional headers](https://github.com/sefinek24/express-favicon/blob/2b7bee22e84750b3de01448c2ec1d70b3d074aed/index.js#L25) responsible for caching the icon in the client's browser.
 
 ## Installation
 ```bash
