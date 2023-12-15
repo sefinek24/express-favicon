@@ -1,12 +1,12 @@
+const express = require('express');
+const favicon = require('../index.js');
 const fs = require('fs');
 const path = require('path');
 const http = require('http');
 const assert = require('assert');
-const express = require('express');
-const favicon = require('../index.js');
 
 const file = path.join(__dirname, 'favicon.png');
-const port = 7860;
+const port = process.env.PORT || 7860;
 
 const app = express();
 app.use(favicon(file));
@@ -20,7 +20,9 @@ function runTest() {
 		});
 
 		res.on('end', () => {
-			assert.equal(res.headers['content-type'], 'image/png', 'Wrong mime type');
+			const contentType = res.headers['content-type'];
+
+			assert.equal(contentType, 'image/png', `Wrong mime type: ${contentType}`);
 			const receivedBuffer = Buffer.concat(chunks);
 			const expectedBuffer = fs.readFileSync(file);
 			assert.ok(receivedBuffer.equals(expectedBuffer), 'Received data is not equal');
