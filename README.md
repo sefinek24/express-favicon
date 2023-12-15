@@ -27,4 +27,4 @@ app.listen(8080, () => {
 ![Favicon 48x48](test/favicon.png)
 
 ## MIT License
-Copyright 2023 © by Sefinek. All Rights Reserved.
+Copyright 2023 © by [Sefinek](https://sefinek.net). All Rights Reserved.
